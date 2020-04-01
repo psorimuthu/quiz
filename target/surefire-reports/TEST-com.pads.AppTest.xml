@@ -1,65 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pads.AppTest" time="0.082" tests="1" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.pads.AppTest" time="0.009" errors="0" skipped="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\SMB\Downloads\mywork\microservices\quiz\target\test-classes;C:\Users\SMB\Downloads\mywork\microservices\quiz\target\classes;C:\Users\SMB\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\SMB\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SMB\.m2\repository\javax\javaee-api\8.0.1\javaee-api-8.0.1.jar;C:\Users\SMB\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\SMB\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\SMB\.m2\repository\javax\xml\ws\jaxws-api\2.2.6\jaxws-api-2.2.6.jar;C:\Users\SMB\.m2\repository\javax\xml\bind\jaxb-api\2.2.4\jaxb-api-2.2.4.jar;C:\Users\SMB\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\SMB\.m2\repository\javax\xml\soap\saaj-api\1.3.4\saaj-api-1.3.4.jar;C:\Users\SMB\.m2\repository\org\glassfish\javax.annotation\3.1.1\javax.annotation-3.1.1.jar;C:\Users\SMB\.m2\repository\javax\jws\jsr181-api\1.0-MR1\jsr181-api-1.0-MR1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\undertow\2018.5.0\undertow-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\container\2018.5.0\container-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\spi\2018.5.0\spi-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\bootstrap\2018.5.0\bootstrap-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\modules\jboss-modules\1.6.1.Final\jboss-modules-1.6.1.Final.jar;C:\Users\SMB\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\config-api\1.3.1\config-api-1.3.1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\config-api-runtime\1.3.1\config-api-runtime-1.3.1.jar;C:\Users\SMB\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\io\2018.5.0\io-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\logging\2018.5.0\logging-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\ee\2018.5.0\ee-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\naming\2018.5.0\naming-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\enterprise\concurrent\jboss-concurrency-api_1.0_spec\1.0.0.Final\jboss-concurrency-api_1.0_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\interceptor\jboss-interceptors-api_1.2_spec\1.0.0.Final\jboss-interceptors-api_1.2_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\el\jboss-el-api_3.0_spec\1.0.9.Final\jboss-el-api_3.0_spec-1.0.9.Final.jar;C:\Users\SMB\.m2\repository\org\glassfish\javax.el-impl\3.0.1-b08-jbossorg-1\javax.el-impl-3.0.1-b08-jbossorg-1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\request-controller\2018.5.0\request-controller-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-jboss\2.0.0\shrinkwrap-descriptors-api-jboss-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-jboss\2.0.0\shrinkwrap-descriptors-impl-jboss-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-javaee\2.0.0\shrinkwrap-descriptors-api-javaee-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-javaee\2.0.0\shrinkwrap-descriptors-impl-javaee-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-base\2.0.0\shrinkwrap-descriptors-impl-base-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.0.Final\jboss-servlet-api_3.1_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\websocket\jboss-websocket-api_1.1_spec\1.1.1.Final\jboss-websocket-api_1.1_spec-1.1.1.Final.jar;C:\Users\SMB\.m2\repository\io\undertow\undertow-servlet\1.4.18.Final\undertow-servlet-1.4.18.Final.jar;C:\Users\SMB\.m2\repository\io\undertow\undertow-core\1.4.18.Final\undertow-core-1.4.18.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\xnio\xnio-api\3.3.8.Final\xnio-api-3.3.8.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\xnio\xnio-nio\3.3.8.Final\xnio-nio-3.3.8.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.2_spec\1.0.0.Final\jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\meta-spi\2018.5.0\meta-spi-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\management\2018.5.0\management-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\elytron\2018.5.0\elytron-2018.5.0.jar;"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\SMB\Downloads\mywork\microservices\quiz"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 7"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SMB\AppData\Local\Temp\surefire1842858914456617451\surefirebooter7831807777873009493.jar C:\Users\SMB\AppData\Local\Temp\surefire1842858914456617451 2020-03-27T03-27-10_578-jvmRun1 surefire1112470351476449651tmp surefire_08634874818837047248tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\SMB\Downloads\mywork\microservices\quiz\target\test-classes;C:\Users\SMB\Downloads\mywork\microservices\quiz\target\classes;C:\Users\SMB\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\SMB\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SMB\.m2\repository\javax\javaee-api\8.0.1\javaee-api-8.0.1.jar;C:\Users\SMB\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\SMB\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\SMB\.m2\repository\javax\xml\ws\jaxws-api\2.2.6\jaxws-api-2.2.6.jar;C:\Users\SMB\.m2\repository\javax\xml\bind\jaxb-api\2.2.4\jaxb-api-2.2.4.jar;C:\Users\SMB\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\SMB\.m2\repository\javax\xml\soap\saaj-api\1.3.4\saaj-api-1.3.4.jar;C:\Users\SMB\.m2\repository\org\glassfish\javax.annotation\3.1.1\javax.annotation-3.1.1.jar;C:\Users\SMB\.m2\repository\javax\jws\jsr181-api\1.0-MR1\jsr181-api-1.0-MR1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\undertow\2018.5.0\undertow-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\container\2018.5.0\container-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\spi\2018.5.0\spi-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\SMB\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\bootstrap\2018.5.0\bootstrap-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\modules\jboss-modules\1.6.1.Final\jboss-modules-1.6.1.Final.jar;C:\Users\SMB\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\config-api\1.3.1\config-api-1.3.1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\config-api-runtime\1.3.1\config-api-runtime-1.3.1.jar;C:\Users\SMB\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\io\2018.5.0\io-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\logging\2018.5.0\logging-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\ee\2018.5.0\ee-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\naming\2018.5.0\naming-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\enterprise\concurrent\jboss-concurrency-api_1.0_spec\1.0.0.Final\jboss-concurrency-api_1.0_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\interceptor\jboss-interceptors-api_1.2_spec\1.0.0.Final\jboss-interceptors-api_1.2_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\el\jboss-el-api_3.0_spec\1.0.9.Final\jboss-el-api_3.0_spec-1.0.9.Final.jar;C:\Users\SMB\.m2\repository\org\glassfish\javax.el-impl\3.0.1-b08-jbossorg-1\javax.el-impl-3.0.1-b08-jbossorg-1.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\request-controller\2018.5.0\request-controller-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-jboss\2.0.0\shrinkwrap-descriptors-api-jboss-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-jboss\2.0.0\shrinkwrap-descriptors-impl-jboss-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-javaee\2.0.0\shrinkwrap-descriptors-api-javaee-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-javaee\2.0.0\shrinkwrap-descriptors-impl-javaee-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-base\2.0.0\shrinkwrap-descriptors-impl-base-2.0.0.jar;C:\Users\SMB\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm-commons\6.0\asm-commons-6.0.jar;C:\Users\SMB\.m2\repository\org\ow2\asm\asm-tree\6.0\asm-tree-6.0.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\servlet\jboss-servlet-api_3.1_spec\1.0.0.Final\jboss-servlet-api_3.1_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\websocket\jboss-websocket-api_1.1_spec\1.1.1.Final\jboss-websocket-api_1.1_spec-1.1.1.Final.jar;C:\Users\SMB\.m2\repository\io\undertow\undertow-servlet\1.4.18.Final\undertow-servlet-1.4.18.Final.jar;C:\Users\SMB\.m2\repository\io\undertow\undertow-core\1.4.18.Final\undertow-core-1.4.18.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\xnio\xnio-api\3.3.8.Final\xnio-api-3.3.8.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\xnio\xnio-nio\3.3.8.Final\xnio-nio-3.3.8.Final.jar;C:\Users\SMB\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.2_spec\1.0.0.Final\jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\meta-spi\2018.5.0\meta-spi-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\management\2018.5.0\management-2018.5.0.jar;C:\Users\SMB\.m2\repository\org\wildfly\swarm\elytron\2018.5.0\elytron-2018.5.0.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\SMB"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="basedir" value="C:\Users\SMB\Downloads\mywork\microservices\quiz"/>
-    <property name="file.separator" value="\"/>
-    <property name="swarm.http.port" value="8083"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SMB\AppData\Local\Temp\surefire1842858914456617451\surefirebooter7831807777873009493.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_241-b07"/>
-    <property name="user.name" value="SMB"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="6.1"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\SMB\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\SMB\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_241"/>
-    <property name="user.dir" value="C:\Users\SMB\Downloads\mywork\microservices\quiz"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\SMB\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.241-b07"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\SMB\Downloads\mywork\microservices\quiz"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SMB\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\SMB\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;."/>
+    <property name="maven.conf" value="C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\SMB"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SMB"/>
+    <property name="java.class.path" value="C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\SMB\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.pads.AppTest" time="0.022"/>
+  <testcase classname="com.pads.AppTest" name="shouldAnswerWithTrue" time="0.009"/>
 </testsuite>
