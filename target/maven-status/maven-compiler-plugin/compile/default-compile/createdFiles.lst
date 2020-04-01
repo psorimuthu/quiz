@@ -1,0 +1,7 @@
+com\pads\Quiz.class
+com\pads\endpoints\TriviaQuestionEndpoint.class
+com\pads\model\TriviaQuestionArrayAccess.class
+com\pads\App.class
+com\pads\model\TriviaQuestionAccessible.class
+com\pads\model\TriviaQuestionBuilder.class
+com\pads\model\TriviaQuestion.class
